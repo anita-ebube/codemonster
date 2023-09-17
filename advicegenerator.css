@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: #202733;
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+    padding: 20px;
+  }
+  
+.container {
+    position: relative;
+    display: grid;
+    gap: 15px;
+    background: #313a48;
+    max-width: 540px;
+    text-align: center;
+    padding: 48px;
+    border-radius: 15px;
+  }
+  
+  .title {
+    text-transform: uppercase;
+    color: #53ffaa;
+    font-weight: 800;
+    font-size: 13px;
+
+  }
+  
+  .advice {
+    font-size: 28px;
+    color: #cee3e9;
+    transition: 300ms ease-out;
+  }
+  
+  button {
+    position: absolute;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    border-radius: 50px;
+    border: 0;
+    background: #53ffaa;
+    cursor: pointer;
+    transition: 300ms ease-out;
+    margin-inline: auto;
+    inset-inline: 0;
+    bottom: -32px;
+    max-width: 64px;
+}
+  
